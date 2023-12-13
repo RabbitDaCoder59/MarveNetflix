@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    background-image: url(/imagez/NG-en-20230320-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg);
+}
+.Home-container {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.9));
+    height: 55rem;
+    width: 100%;
+}
+.TopNav {
+   padding-left: 5px;
+   padding-top: 2%; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: -40px;
+}
+.logo img{
+    width: 100%;
+    height: 120px;
+}
+
+
+/* ============================================================== */
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 88px;
+}
+.form-panel {
+    height: 32rem;
+    width: 22rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+}
+.signText {
+    padding-bottom: 20px;
+}
+.Stxt {
+    color: #Fff;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+.input-email {
+    padding-bottom: 15px;
+}
+.input-email input, .input-pass input {
+    width: 100%;
+    height: 2.8rem;
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    background-color: rgb(51, 51, 51);
+    color: #Fff;
+    outline: none;
+}
+input:focus     {
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.input-con {
+    padding-bottom: 30px;
+}
+
+button {
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(245, 0, 12);
+    margin-bottom: 7px;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.re-need-con {
+    display: flex;
+    justify-content: space-between;
+}
+.check {
+    display: flex;
+}
+#ck {
+    accent-color: rgb(115, 115, 115);
+    height: 14px;
+    width: 30px;
+}
+
+.check p {
+    color: #a9a4a4;
+    font-size: 13px;
+}
+.neehlp {
+    color: #a9a4a4;
+    font-size: 13px;
+}
+.neehlp:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+
+/* ================================== */
+.new p {
+    color: #a9a4a4;
+}
+.new span {
+    color: #fff;
+    font-weight: 700;
+}
+.new span:hover {
+    text-decoration: underline;
+}
+.new {
+    font-size: .95em;
+    margin-bottom: 10px;
+}
+.reptach {
+    color: #a9a4a4;
+    font-size: .7em;
+    line-height: 14px;
+}
+.reptach span {
+    color: rgb(74, 74, 241);
+    padding-left: 3px;
+}
+.reptach span:hover {
+    text-decoration: underline;
+}
+/* ============================================= */
+
+.fCon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fCon div {
+    padding-bottom: 10px;
+}
+
+.fCon a {
+    color:#a9a4a4 ;
+    font-size: .9em;
+    text-decoration: none;
+}
+.que {
+    padding-bottom: 10px;
+}
+.que a {
+    color:#a9a4a4 ;
+    font-size: .9em;
+    text-decoration: none;
+}
+ 
+.que a:hover {
+    text-decoration: underline;
+}
+.fCon a:hover {
+    text-decoration: underline;
+}
+/* ================================================ */
+.footer {
+    height: 8rem;
+    width:100%;
+    background-color: rgba(0, 0, 0);
+    padding-left: 20px;
+}
+.bottom {
+    background-color: #fff;
+    width: 100%;
+    height:30px;
+}

@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.con {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/61e79073-50cf-4f7b-9a23-73290e6f7dca/83896f6b-e3dd-4c2d-9d1f-350344d41941/NG-en-20230410-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+.Home-container {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.9));
+    height: 550px;
+    width: 100%;
+}
+.TopNav {
+   padding-left: 90px;
+   padding-right: 130px;
+   padding-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.btnNav {
+    padding-top: 0px;
+  
+}
+.logo {
+    margin-top: -30px;
+}
+.logo img{
+    width: 100%;
+    height: 90px;
+    padding-left: 30px;
+}
+
+
+.btnNav button{
+    width: 65px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: rgb(245, 0, 12);
+    border: none;
+}
+.btnNav button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home-text {
+    padding-top: 9rem;
+    text-align: center;
+}
+.bold {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Quicksand';
+}
+.watch {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #fff;
+}
+.ready {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #fff;
+}
+.input-btn {
+    margin-top: 15px;
+    margin-left: 27%;
+    display: flex;
+    gap: 10px;
+}
+.input-btn input {
+    width:320px;
+    height: 45px;
+    background-color: rgba(16,18,17,.65);
+    color: #fff;
+    outline: none;
+    border: .1px #8b8b8b solid;
+    border-radius: 2px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.input-btn button {
+    width:20%;
+    height: 45px;
+    background-color: red;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+.input-btn button a {
+    text-decoration: none;
+    color: #fff;
+    font-size:20px;
+}
+.input-btn button:hover {
+    background-color: rgb(193,17,25);
+}
+.nav-btn:hover {
+    background-color: rgb(193,17,25);
+}
+/*=========================  next section ================================ */
+.tick-line {
+    width: 100%;
+    height: 7px;
+    background-color: rgb(35,35,35);
+}
+.Tv {
+    width: 100%;
+    height: 430px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    padding-left: 10%;
+}
+.Boldtext {
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.Ptext {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: start;
+    width: 500px;
+}
+
+.TVImage {
+    position: relative;
+}
+
+.TVImage img {
+    width: 85%;
+    position: relative;
+    z-index: 999;
+}
+
+ video {
+  width: 65%;
+  position: absolute;
+  right: 120px;
+  top: 62px;
+ 
+}
+/* ============================================================================= */
+.download {
+    width: 100%;
+    height:430px;
+    background-color: #000;
+    display: flex;
+    margin: auto 0;
+    padding-left: 10%;
+}
+/* ===================== */
+.xydownload {
+    position: relative;
+}
+.download-motion-con {
+    width: 250px;
+    height: 75px;
+    background-color: #000;
+    border: 2px solid #333232;
+    border-radius: 8px;
+    position: absolute;
+    left: 104px;
+    top: 260px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.motionImg img {
+    height: 60px;
+    position: absolute;
+    left: 8px;
+    top: 6px;
+}
+.motionTextCon {
+
+    color: #fff;
+    position: absolute;
+    top: 17px;
+}
+.text1 {
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text2 {
+    color: #00f;
+    font-size: 16px;
+   
+}
+.motionGif {
+    position: absolute;
+    left: 190px;
+    top: 22px;
+}
+.motionGif img {
+    height: 40px;
+    background-color: #000;
+}
+/* ================================ */
+
+.download-img img {
+    width: 455px;
+    height: 350px;
+}
+.download-text {
+    color: #fff;
+    margin: auto 0;
+}
+.download-text h4 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.download-text p {
+    color: #fff;
+    font-size: 1.3em;
+    word-spacing: 2px;
+}
+/* -=================================================================== */
+.watchContainer {
+    width: 100%;
+    height:350px;
+    background-color: #000;
+    display: flex;
+    margin: auto 0;
+    padding-left: 10%;
+}
+.Watch-text {
+    margin: auto 0;
+    padding-left: 90px;
+    color: #fff;
+}
+.Watch-text h4 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+  .Watch-text p {
+      color: #fff;
+      font-size: 1.3em;
+      word-spacing: 2px;
+  }
+/* ========================================================================= */
+
+.downloadOffline {
+    width: 100%;
+    height:350px;
+    background-color: #000;
+    display: flex;
+    margin: auto 0;
+    padding-left: 8%;
+}
+
+/* ============================================================================= */
+.Questions {
+width: 100%;
+height: 100%;
+background-color: #000;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 90px;
+}
+.Questions-text {
+color: #fff;
+font-size: 1.6em;
+font-weight: 700;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 30px;
+}
+.question-box {
+width: 80%;
+height: 70px;
+background-color: rgb(39, 38, 38);
+margin-bottom: 9px;
+position: relative;
+}
+.question-box:hover {
+background-color: rgb(76, 74, 74);
+}
+.icontext{
+color: #fff;
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+position: relative;
+padding-left: 20px;
+padding-right: 20px;
+}
+.icon {
+color: #fff;
+font-size: 2em;
+display: block;
+}
+.icon2 {
+    color: #fff;
+    font-size: 2em;
+    display: none;
+}
+.frq-que {
+width: 100%;
+height: 145px;
+background-color:rgb(66, 64, 64);
+color: #fff;
+position: absolute;
+top:71.5px ;
+display: none;
+font-size: 1.2em;
+}
+.ques {
+    font-size: 20px;
+    font-weight: 600;
+}
+.hide {
+display: block;
+}
+.margin {
+margin-bottom: 150px;
+}
+/* ====================================================== */
+.Btn-con {
+    margin-top: 20px;
+  
+}
+
+.btn-con-input {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 25px;
+}
+.btn-con-input input {
+    width:55%;
+    height: 50px;
+    background-color: rgba(16,18,17,.65);
+    color: #aca7a7;
+    outline: 1px #8b8b8b solid;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.btn-con-input button {
+    width:30%;
+    height: 50px;
+    background-color: rgb(239, 7, 19);
+    border: none;
+    border-radius: 3px;
+}
+.btn-con-input button a{
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+}
+.input-btn button:hover {
+    background-color: rgb(193,17,25);
+}
+.foot-text {
+    color: #aca7a7;
+    text-align: center;
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+/* =================================================== */
+
+
+.fCon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fCon div {
+    padding-bottom: 10px;
+}
+
+.fCon a {
+    color:#a9a4a4 ;
+    font-size: .9em;
+    text-decoration: none;
+}
+.que {
+    padding-bottom: 10px;
+}
+.que a {
+    color:#a9a4a4 ;
+    font-size: .9em;
+    text-decoration: none;
+}
+ 
+.que a:hover {
+    text-decoration: underline;
+}
+.fCon a:hover {
+    text-decoration: underline;
+}
+.footer {
+    height: 15rem;
+    width:100%;
+    background-color: rgba(0, 0, 0);
+    padding-left: 20px;
+}
+/* ============================================== */
+select {
+    height: 30px;
+    width: 13%;
+    background-color: rgb(15, 17, 23);
+    position: relative;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 15px;
+    border-radius:3px;
+}
+.globe img {
+height: 30px;
+position: absolute;
+top: 0px;
+}
+.lang {
+    padding-bottom: 4%;
+    position: relative;
+}
